@@ -11,7 +11,7 @@ Design and develop a technological solution for identifying and blocking any obs
 * The project involves developing models to classify between safe and unsafe media across various formats, including images and videos.
 * The implementation of the solution requires the use of deep learning frameworks and techniques.
 ## Novelty of the Project
-* We are working on using ensemble learning approach to use Nudenet and Open NSFW  that we are working on But this models were not updated by the authors of the code for past couple of yers and the dependency and vectors are became incompatable we are still trying to revive it for now we gave it a try with Inception V3 model which has given 94% +accuracy.
+* We are working on using ensemble learning approach to use Nudenet and Open NSFW  that we are working on But this models were not updated by the authors of the code for past couple of yers and the dependency and vectors are became incompatable we are still trying to revive it for now we gave it a try with Inception V3 model which has given 94% accuracy.
 * The project also involved scraping actual image porn sites to obtain more relevant data and about to use GAN to upscale the images for better classification accuracy.
 * The solution incorporates the use of frame-by-frame checking for video classification, increasing the accuracy of the model.
 ## Feasibility
