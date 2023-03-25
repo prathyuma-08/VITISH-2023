@@ -28,7 +28,6 @@ Design and develop a technological solution for identifying and blocking any obs
 trained on Inception V3 with 2 classes based on " The Image and video dataset for adult content detection in image and video " .The model classifies image/video/gif/svg into Safe and Unsafe .The model perfomed well with around 95% accuracy with just 10 epocs for priliminary rounds .
 > noktedan, ali (2021): The Image and video dataset for adult content detection in image and video. figshare. Dataset. https://doi.org/10.6084/m9.figshare.14495367.v1
 * Image detection
-[!https://github.com/prathyuma-08/VITISH-2023/blob/main/Untitled%20Diagram.drawio.png]
  This module helps the extention decide which type of NSFW tag a specific content belongs .It has 5 classes namely Normal,Nudity,Sexual Activity ,Lingerie,Gore images .These images were scrapped using Beautiful soup and mannualy segrigated into folders .Upsampling has been done using regular data augumentation methods like zooming,rotation,sheer,horizontal flip,height shift,width sift ,fill mode.This upsampled data is trained using Inception V3 .
 
 ## Future works 
